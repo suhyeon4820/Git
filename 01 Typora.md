@@ -102,6 +102,30 @@ $ git push origin master
 
 ![github](https://miro.medium.com/max/1366/1*mtsk3fQ_BRemFidhkel3dA.png)
 
+### 1) 이미지 크기 
+
+```
+<img src="image.png" width="300px" height="100px" >
+```
+
+
+
+### 2) 이미지 정렬
+
+- 오른쪽, 왼쪽 정렬
+
+```
+<img src="image.png" align = "right" >
+```
+
+- 가운데 정렬
+
+```
+<p align="center"><img src="image.png"></p>
+```
+
+
+
 ### 1.5 Link
 
 >  특정 주소로 링크를 걸 때 사용합니다.
@@ -119,7 +143,9 @@ $ git push origin master
 - `|`(파이프)사이에 컬럼을 작성하고 `enter` 를 입력합니다.
 - 마지막 컬럼을 작성하고 뒤에 `| `를 붙여줍니다.
 
-
+```
+|Working directory | statging area | remoe repo|
+```
 
 | Working directory | statging area | remoe repo |
 | ----------------- | ------------- | ---------- |
@@ -128,9 +154,20 @@ $ git push origin master
 
 
 
+### 1.7 Task List 
+
+```
+- [ ] To do list
+- [X] Done
+```
+
+- [ ] To do list
+
+- [x] Done
 
 
-### 1.7 기타
+
+### 1.8 기타
 
 #### 인용문
 
